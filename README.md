@@ -1,1 +1,1 @@
-# DL-Lab-2
+# Deep Learning-Lab-2
