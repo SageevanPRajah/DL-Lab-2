@@ -1,0 +1,13 @@
+Q1. What happens when the number of hidden nodes increases?
+
+*With very few hidden units → the model can’t capture the flower shape, so accuracy is lower.
+*As you increase hidden units → the model captures the nonlinear boundary better and accuracy improves.
+*As you increase hidden units(very high) → the model overload and accuracy decreasing slightly.
+
+Q2. Explain the pattern of the accuracy as hidden nodes increase
+
+Usually rise → plateau → (sometimes) slight drop/variance pattern.
+
+*Rise: extra units reduce bias (more flexible boundary) → accuracy improves.
+*Plateau: beyond a point, extra capacity brings diminishing returns.
+*Drop/variance: with many units, optimization noise and overfitting can cause small accuracy fluctuations. Random initialization also adds variability.
